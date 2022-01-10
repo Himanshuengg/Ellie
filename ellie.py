@@ -89,8 +89,8 @@ if __name__ == "__main__":
             webbrowser.open("google.com")
 
 
-        elif 'open youtube' in query:
-            webbrowser.open("youtube.com")
+        elif 'open git' in query:
+            webbrowser.open("https://github.com/Himanshuengg?tab=repositories")
 
 
         elif 'open stackoverflow' in query:
