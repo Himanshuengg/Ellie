@@ -26,10 +26,10 @@ def wishMe():
     ''' Wish Me function wish you according to the timing '''
     hour = int(datetime.datetime.now().hour)
     if hour >= 0 and hour < 12 :
-        speak("Good Morning")
+        speak("Good Morning!!")
 
     elif hour >= 12 and hour < 17:
-        speak(" Good Afternoon")   
+        speak(" Good Afternoon!!")   
 
     else:
         speak("Good Evening")
